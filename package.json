@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "Nicholas O'Brien <nicholas.obrien@ucc.on.ca> (http://obrien.tech)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1"
+  }
 }

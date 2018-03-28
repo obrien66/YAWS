@@ -1,6 +1,8 @@
+require('dotenv').config()
+
 var http = require("http")
 var {handler} = require("./handler")
-var port = 8000
+var port = process.env.PORT
 
 var server = http.createServer(handler)
 server.listen(port)
